@@ -1,0 +1,121 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set(/home/lili/Escritorio/pruebas/src/main/scala/extractorsExamples/ExtractorsExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/traitExamples/traitExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/collectionsExamples/CollectionsExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/filesInputOutput/FilesInputOutput.scala, /home/lili/Escritorio/pruebas/src/main/scala/main.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/lili/Escritorio/repasoScala/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala, /home/lili/Escritorio/repasoScala/src/main/scala/filesInputOutput/FilesInputOutput.scala, /home/lili/Escritorio/repasoScala/src/main/scala/traitExamples/traitExamples.scala, /home/lili/Escritorio/repasoScala/src/main/scala/extractorsExamples/ExtractorsExamples.scala, /home/lili/Escritorio/repasoScala/src/main/scala/collectionsExamples/CollectionsExamples.scala, /home/lili/Escritorio/repasoScala/src/main/scala/main.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/lili/Escritorio/repasoScala/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/extractorsExamples/ExtractorsExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala, /home/lili/Escritorio/repasoScala/src/main/scala/filesInputOutput/FilesInputOutput.scala, /home/lili/Escritorio/pruebas/src/main/scala/traitExamples/traitExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/collectionsExamples/CollectionsExamples.scala, /home/lili/Escritorio/repasoScala/src/main/scala/traitExamples/traitExamples.scala, /home/lili/Escritorio/repasoScala/src/main/scala/extractorsExamples/ExtractorsExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/filesInputOutput/FilesInputOutput.scala, /home/lili/Escritorio/repasoScala/src/main/scala/collectionsExamples/CollectionsExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/main.scala, /home/lili/Escritorio/repasoScala/src/main/scala/main.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/lili/Escritorio/repasoScala/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/extractorsExamples/ExtractorsExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala, /home/lili/Escritorio/repasoScala/src/main/scala/filesInputOutput/FilesInputOutput.scala, /home/lili/Escritorio/pruebas/src/main/scala/traitExamples/traitExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/collectionsExamples/CollectionsExamples.scala, /home/lili/Escritorio/repasoScala/src/main/scala/traitExamples/traitExamples.scala, /home/lili/Escritorio/repasoScala/src/main/scala/extractorsExamples/ExtractorsExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/filesInputOutput/FilesInputOutput.scala, /home/lili/Escritorio/repasoScala/src/main/scala/collectionsExamples/CollectionsExamples.scala, /home/lili/Escritorio/pruebas/src/main/scala/main.scala, /home/lili/Escritorio/repasoScala/src/main/scala/main.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 6 sources: invalidated sources (12) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 6 Scala sources to /home/lili/Escritorio/repasoScala/target/scala-2.12/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.12.1[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.12.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 2cf0a019, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/lili/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/lili/Escritorio/repasoScala/target/scala-2.12/classes[0m
+[0m[[0mdebug[0m] [0mScala compilation took 7.116489697 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/repasoScala/src/main/scala/collectionsExamples/CollectionsExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/repasoScala/src/main/scala/collectionsExamples/CollectionsExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/repasoScala/src/main/scala/collectionsExamples/CollectionsExamples.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/repasoScala/src/main/scala/collectionsExamples/CollectionsExamples.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/repasoScala/src/main/scala/collectionsExamples/CollectionsExamples.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, mapExample, equals, asInstanceOf, CollectionsExamples, synchronized, $isInstanceOf, iteratorExample, tupleExample, notifyAll, isInstanceOf, <init>, ==, clone, runExamplesCollections, listExample, toString, !=, getClass, ne, optionExample, eq, ##, finalize, setExample, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/lili/Escritorio/repasoScala/src/main/scala/main.scala: Set(CollectionsExamples, <init>)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/pruebas/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/pruebas/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/pruebas/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/pruebas/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/pruebas/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, matchTest2, equals, asInstanceOf, synchronized, $isInstanceOf, matchTest, notifyAll, isInstanceOf, runPatterMatchingExamples, <init>, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, PatterMatchingExamples, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/pruebas/src/main/scala/extractorsExamples/ExtractorsExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/pruebas/src/main/scala/extractorsExamples/ExtractorsExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/pruebas/src/main/scala/extractorsExamples/ExtractorsExamples.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/pruebas/src/main/scala/extractorsExamples/ExtractorsExamples.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/pruebas/src/main/scala/extractorsExamples/ExtractorsExamples.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, unapply, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ExtractorsExamples, <init>, apply, ==, clone, runextractorsExamples, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/repasoScala/src/main/scala/traitExamples/traitExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/repasoScala/src/main/scala/traitExamples/traitExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/repasoScala/src/main/scala/traitExamples/traitExamples.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/repasoScala/src/main/scala/traitExamples/traitExamples.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/repasoScala/src/main/scala/traitExamples/traitExamples.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	e, notify, x, wait, $asInstanceOf, isEqual, traitExamples, equals, y, asInstanceOf, print, Point, synchronized, $isInstanceOf, Printable, notifyAll, isInstanceOf, <init>, ==, clone, $init$, underlying, toString, !=, getClass, ne, runTraitExamples, eq, Equal, ##, finalize, hashCode, isNotEqual.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/lili/Escritorio/repasoScala/src/main/scala/main.scala: Set(traitExamples, <init>)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/pruebas/src/main/scala/collectionsExamples/CollectionsExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/pruebas/src/main/scala/collectionsExamples/CollectionsExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/pruebas/src/main/scala/collectionsExamples/CollectionsExamples.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/pruebas/src/main/scala/collectionsExamples/CollectionsExamples.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/pruebas/src/main/scala/collectionsExamples/CollectionsExamples.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, mapExample, equals, asInstanceOf, CollectionsExamples, synchronized, $isInstanceOf, iteratorExample, tupleExample, notifyAll, isInstanceOf, <init>, ==, clone, runExamplesCollections, listExample, toString, !=, getClass, ne, optionExample, eq, ##, finalize, setExample, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/pruebas/src/main/scala/main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/pruebas/src/main/scala/main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/pruebas/src/main/scala/main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/pruebas/src/main/scala/main.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/pruebas/src/main/scala/main.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, executionStart, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, Main, toString, args, !=, getClass, ne, eq, delayedInit, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/repasoScala/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/repasoScala/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/repasoScala/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/repasoScala/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/repasoScala/src/main/scala/patterMatchingExamples/PatterMatchingExamples.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, matchTest2, equals, asInstanceOf, synchronized, $isInstanceOf, matchTest, notifyAll, isInstanceOf, runPatterMatchingExamples, <init>, ==, clone, toString, !=, getClass, ne, eq, ##, finalize, PatterMatchingExamples, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/lili/Escritorio/repasoScala/src/main/scala/main.scala: Set(<init>, PatterMatchingExamples)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/pruebas/src/main/scala/traitExamples/traitExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/pruebas/src/main/scala/traitExamples/traitExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/pruebas/src/main/scala/traitExamples/traitExamples.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/pruebas/src/main/scala/traitExamples/traitExamples.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/pruebas/src/main/scala/traitExamples/traitExamples.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	e, notify, x, wait, $asInstanceOf, isEqual, traitExamples, equals, y, asInstanceOf, print, Point, synchronized, $isInstanceOf, Printable, notifyAll, isInstanceOf, <init>, ==, clone, $init$, underlying, toString, !=, getClass, ne, runTraitExamples, eq, Equal, ##, finalize, hashCode, isNotEqual.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/repasoScala/src/main/scala/filesInputOutput/FilesInputOutput.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/repasoScala/src/main/scala/filesInputOutput/FilesInputOutput.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/repasoScala/src/main/scala/filesInputOutput/FilesInputOutput.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/repasoScala/src/main/scala/filesInputOutput/FilesInputOutput.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/repasoScala/src/main/scala/filesInputOutput/FilesInputOutput.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, outPut, asInstanceOf, synchronized, FilesInputOutput, $isInstanceOf, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, ne, input, eq, ##, finalize, hashCode, runFilesInputOutput.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/lili/Escritorio/repasoScala/src/main/scala/main.scala: Set(FilesInputOutput, <init>, runFilesInputOutput)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/repasoScala/src/main/scala/main.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/repasoScala/src/main/scala/main.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/repasoScala/src/main/scala/main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/repasoScala/src/main/scala/main.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/repasoScala/src/main/scala/main.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, asInstanceOf, executionStart, synchronized, $isInstanceOf, main, notifyAll, isInstanceOf, ==, clone, Main, toString, args, !=, getClass, ne, eq, delayedInit, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/repasoScala/src/main/scala/extractorsExamples/ExtractorsExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/repasoScala/src/main/scala/extractorsExamples/ExtractorsExamples.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/repasoScala/src/main/scala/extractorsExamples/ExtractorsExamples.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/repasoScala/src/main/scala/extractorsExamples/ExtractorsExamples.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/repasoScala/src/main/scala/extractorsExamples/ExtractorsExamples.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, unapply, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, ExtractorsExamples, <init>, apply, ==, clone, runextractorsExamples, toString, !=, getClass, ne, eq, ##, finalize, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/lili/Escritorio/repasoScala/src/main/scala/main.scala: Set(ExtractorsExamples, <init>)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/pruebas/src/main/scala/filesInputOutput/FilesInputOutput.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/pruebas/src/main/scala/filesInputOutput/FilesInputOutput.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/pruebas/src/main/scala/filesInputOutput/FilesInputOutput.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/pruebas/src/main/scala/filesInputOutput/FilesInputOutput.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/pruebas/src/main/scala/filesInputOutput/FilesInputOutput.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, equals, outPut, asInstanceOf, synchronized, FilesInputOutput, $isInstanceOf, notifyAll, isInstanceOf, <init>, ==, clone, toString, !=, getClass, ne, input, eq, ##, finalize, hashCode, runFilesInputOutput.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
