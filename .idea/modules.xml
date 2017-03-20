@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repasoscala.iml" filepath="$PROJECT_DIR$/.idea/modules/repasoscala.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repasoscala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/repasoscala-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/estudiopersonalscala.iml" filepath="$PROJECT_DIR$/.idea/modules/estudiopersonalscala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/estudiopersonalscala-build.iml" filepath="$PROJECT_DIR$/.idea/modules/estudiopersonalscala-build.iml" />
     </modules>
   </component>
 </project>
