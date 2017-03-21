@@ -16,21 +16,13 @@
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/lili/Escritorio/estudioPersonalScala/target/scala-2.12/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.12.1[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.12.1[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 5511ef54, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 51fe21f7, interfacing (CompilerInterface) with Scala compiler version 2.12.1[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/lili/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/home/lili/Escritorio/estudioPersonalScala/target/scala-2.12/classes[0m
-[0m[[0mdebug[0m] [0mScala compilation took 0.554591142 s[0m
-[0m[[0mdebug[0m] [0mInvalidating /home/lili/Escritorio/estudioPersonalScala/src/main/scala/futuresExamples/FuturesExamples.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/lili/Escritorio/estudioPersonalScala/src/main/scala/futuresExamples/FuturesExamples.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/lili/Escritorio/estudioPersonalScala/src/main/scala/futuresExamples/FuturesExamples.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/lili/Escritorio/estudioPersonalScala/src/main/scala/futuresExamples/FuturesExamples.scala)[0m
-[0m[[0mdebug[0m] [0mThe /home/lili/Escritorio/estudioPersonalScala/src/main/scala/futuresExamples/FuturesExamples.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	futuro1.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
-[0m[[0mdebug[0m] [0mNone of the modified names appears in /home/lili/Escritorio/estudioPersonalScala/src/main/scala/main.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mScala compilation took 0.379814961 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
