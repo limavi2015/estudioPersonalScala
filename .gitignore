@@ -1,1 +1,15 @@
 # Created by .ignore support plugin (hsz.mobi)
+logs
+project/project
+project/target
+dist/native_libraries
+dist/web
+dist/universal
+dist/streams
+dist/scala-2.11
+dist/resolution-cache
+dist/.history
+dist/negocio*.jar
+dist/test-reports
+target
+tmp

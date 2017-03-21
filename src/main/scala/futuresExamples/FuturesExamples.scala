@@ -2,18 +2,33 @@ package futuresExamples
 
 import scala.concurrent.{ExecutionContext, Future, Await}
 import scala.concurrent.duration._
+
 import ExecutionContext.Implicits.global
+import scala.util.{Success, Failure, Try}
 
 class FuturesExamples {
+  val futuro1: Future[String] = Future{
+    Thread.sleep(10000)
+    "pink"
+  }
 
   def runFutures={
     println("*** runFutures ***")
+    futuroNoBloqueante
+    futuroBloqueante
+  }
 
-    val f: Future[Int] = Future{
-      Thread.sleep(10000)
-      2
+  private def futuroNoBloqueante={
+    println("** Futuro No Bloqueante")
+    futuro1 onComplete {
+      case Success(result) =>println("resultado del onComplete:" + result)
+      case Failure(e) => println("Error: " + e.getMessage)
     }
+    println("El programa continua en ejecución")
+  }
 
-    println(Await.result(f,12.seconds))
+  private def futuroBloqueante={
+    println("** Futuro Bloqueante")
+    println("resultado del Await: " + Await.result(futuro1,12.seconds))
   }
 }
