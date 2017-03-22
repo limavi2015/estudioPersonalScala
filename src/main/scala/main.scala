@@ -2,7 +2,7 @@ import anonymousFunctionsExamples.AnonymousFunctionsExamples
 import collectionsExamples.CollectionsExamples
 import extractorsExamples.ExtractorsExamples
 import filesInputOutput.FilesInputOutput
-import futuresExamples.FuturesExamples
+import futuresExamples.{FuturesExamples3, FuturesExamples2, FuturesExamples}
 import patterMatchingExamples.PatterMatchingExamples
 import traitExamples.traitExamples
 
@@ -15,5 +15,7 @@ object Main extends App {
   //new ExtractorsExamples().runextractorsExamples
   //new FilesInputOutput().runFilesInputOutput
   //new AnonymousFunctionsExamples().runAnonymousFunctions()
-  new FuturesExamples().runFutures
+  //new FuturesExamples().runFutures
+  //new FuturesExamples2().runFutures2
+  new FuturesExamples3().runFutures3
 }

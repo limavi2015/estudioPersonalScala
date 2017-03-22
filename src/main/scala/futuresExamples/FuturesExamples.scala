@@ -2,26 +2,14 @@ package futuresExamples
 
 import scala.concurrent.{ExecutionContext, Future, Await}
 import scala.concurrent.duration._
-
 import ExecutionContext.Implicits.global
 import scala.util.{Success, Failure, Try}
 
 class FuturesExamples {
-  val futuro1String: Future[String] = Future{
-    Thread.sleep(10000)
-    "pink"
-  }
-
-  val futuro2Num: Future[Int] = Future{
-    Thread.sleep(10000)
-    3
-  }
-
   def runFutures={
     println("*** runFutures ***")
     //futuroBloqueante
-    //futuroNoBloqueante
-    forComprehensions
+    futuroNoBloqueante
     Thread.sleep(12000)
     println("*** termino la ejecucion runFutures ***")
   }
@@ -41,19 +29,14 @@ class FuturesExamples {
     println("El programa llega a este punto cuando el futuro bloqueante ha terminado")
   }
 
-  private def forComprehensions={
-    println("** for Comprehensions, tampoco es bloqueante")
-   for {
-      f1 <- futuro1String
-      f2 <- futuro2Num
-   }yield (println("**El resultado del for Comprehensions: "+ "f1:" +f1 +", f2:"+ f2))
-    println("El programa continua en ejecución 2")
-  }
 }
 
 
 
-/*Para ejecutar futuros de la librería estándar se requiere tener un ExecutionContext, que es algo que ejecuta
+/*
+http://slides.com/miguelvila/futures-en-scala#/4/24
+
+Para ejecutar futuros de la librería estándar se requiere tener un ExecutionContext, que es algo que ejecuta
 código típicamente en un pool de threads.s de la librería estándar se requiere tener un ExecutionContext,
 que es algo que ejecuta código típicamente en un pool de threads.
 
