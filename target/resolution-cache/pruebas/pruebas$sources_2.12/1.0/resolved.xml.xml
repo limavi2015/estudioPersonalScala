@@ -4,7 +4,7 @@
 		module="pruebas$sources_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170321104806"
+		publication="20170323094801"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

@@ -1,10 +1,11 @@
 package futuresExamples
 
 import scala.concurrent.Future
+import scala.concurrent.ExecutionContext.Implicits.global
 
 class FuturesExamples3 {
 
-  case class CauseException{"descripcion": String}
+  case class CauseException(descripcion: String)
   trait TraitResult
   case class SuccessfulFileExecution(fileId: Int) extends TraitResult
   case class FailedFileExecution(fileId: Int, cause: CauseException) extends TraitResult
