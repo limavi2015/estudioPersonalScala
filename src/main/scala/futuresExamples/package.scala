@@ -1,5 +1,6 @@
 import scala.concurrent.{ExecutionContext, Future}
 import ExecutionContext.Implicits.global
+import scala.concurrent
 
 package object futuresExamples {
   val futuro1String: Future[String] = Future{
@@ -11,15 +12,28 @@ package object futuresExamples {
     3
   }
 
-  val listaFuturoString = Future{
+  val futuroListString = Future{
     List("a","b","c","d","e")
   }
 
-  val lista2FuturoString = Future{
+  val futuro2ListString = Future{
     List("f","g","h","i","j")
   }
 
   def devuelveListaFuturo()={
-    lista2FuturoString
+    futuro2ListString
   }
+
+  val seqFuturesString: Seq[Future[String]] =Seq(
+    Future{"orange"},
+    Future{"black"},
+    Future{"white"}
+  )
+
+  val listFuturesString: Seq[Future[String]] =List(
+    Future{"orange"},
+    Future{"black"},
+    Future{"white"}
+  )
 }
+

@@ -1,5 +1,7 @@
 package collectionsExamples
 
+import scala.concurrent.Future
+
 class CollectionsExamples {
 
   def runExamplesCollections(): Unit ={
@@ -26,6 +28,10 @@ class CollectionsExamples {
       )
     val empty: List[Nothing] = List()
     val empty2 = Nil
+
+    println("nums.foldLeft: " + nums.foldLeft(0)((b,a) => b+a))
+    println("nums.fold: " + nums.fold(0)((b,a) => b+a))
+
 
     println(fruit)
     println(nums)
@@ -82,4 +88,6 @@ class CollectionsExamples {
     }
     println("Maximum valued element " + itb.max )
   }
+
+
 }

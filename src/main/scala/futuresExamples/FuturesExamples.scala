@@ -10,6 +10,7 @@ class FuturesExamples {
     println("*** runFutures ***")
     //futuroBloqueante
     futuroNoBloqueante
+    constanteDentroDeUnFuturo
     Thread.sleep(12000)
     println("*** termino la ejecucion runFutures ***")
   }
@@ -27,6 +28,14 @@ class FuturesExamples {
     println("** Futuro Bloqueante")
     println("resultado del Await: " + Await.result(futuro1String,12.seconds))
     println("El programa llega a este punto cuando el futuro bloqueante ha terminado")
+  }
+
+
+  private def constanteDentroDeUnFuturo ={
+    println("** ConstanteDentroDeUnFuturo,  Llamarlos no gasta un thread, a diferencia de Future { ... }")
+    val constante1="Red"
+    Future.failed(new Exception)
+    Future.successful(constante1)
   }
 
 }

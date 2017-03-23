@@ -23,13 +23,13 @@ class FuturesExamples2 {
 
   private def ejercicioMap2: Future[Future[List[String]]] = {
     println("** Ejercicio Map2")
-    listaFuturoString.map { listaString1 =>
+    futuro2ListString.map { listaString1 =>
       devuelveListaFuturo()
     }
   }
 
   private def ejercicioFlatMap: Future[List[String]] = {
-    listaFuturoString.flatMap { listaString1 =>
+    futuro2ListString.flatMap { listaString1 =>
       devuelveListaFuturo()
     }
   }
@@ -43,3 +43,7 @@ class FuturesExamples2 {
     println("Ejercicio for Comprehensions, el programa continua en ejecución 2")
   }
 }
+
+/*
+http://slides.com/miguelvila/futures-en-scala#/4/24
+*/
