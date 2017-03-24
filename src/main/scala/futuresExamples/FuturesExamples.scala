@@ -30,7 +30,6 @@ class FuturesExamples {
     println("El programa llega a este punto cuando el futuro bloqueante ha terminado")
   }
 
-
   private def constanteDentroDeUnFuturo ={
     println("** ConstanteDentroDeUnFuturo,  Llamarlos no gasta un thread, a diferencia de Future { ... }")
     val constante1="Red"

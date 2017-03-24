@@ -1,4 +1,5 @@
 import anonymousFunctionsExamples.AnonymousFunctionsExamples
+import catsExamples.CatsExamples
 import collectionsExamples.CollectionsExamples
 import eitherExamples.EitherExamples
 import extractorsExamples.ExtractorsExamples
@@ -10,7 +11,7 @@ import traitExamples.traitExamples
 object Main extends App {
   println("personal study of Scala")
 
-  new CollectionsExamples().runExamplesCollections
+  //new CollectionsExamples().runExamplesCollections
   //new EitherExamples().runEitherExamples
   //new traitExamples().runTraitExamples
   //new PatterMatchingExamples().runPatterMatchingExamples
@@ -20,6 +21,7 @@ object Main extends App {
   //new FuturesExamples().runFutures
   //new FuturesExamples2().runFutures2
   //new FuturesExamples3().runFutures3
+  new CatsExamples().runCatsExamples
 
 
   /*
