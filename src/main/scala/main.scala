@@ -24,12 +24,10 @@ object Main extends App {
 
   /*
   temas pendientes:
-
-  Fold
-  Ether
   cats
   scalaz
   conexiones a
+  */
 
-   */
+
 }

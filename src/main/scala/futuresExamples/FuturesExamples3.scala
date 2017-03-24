@@ -54,7 +54,7 @@ class FuturesExamples3 {
   }
 
   private def ejerciciotraverse={
-    println("** ejerciciotraverse ")
+    println("** ejerciciotraverse, es parecido a la sequence pero sin tener contrurir primero una lista de futuros ")
     val futureList: Future[List[Int]] = Future.traverse((1 to 10).toList)(x => Future(x * 2))
     println(futureList)
   }

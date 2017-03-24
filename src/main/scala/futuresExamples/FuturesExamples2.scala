@@ -29,6 +29,7 @@ class FuturesExamples2 {
   }
 
   private def ejercicioFlatMap: Future[List[String]] = {
+    println("**  Ejercicio flat map")
     futuro2ListString.flatMap { listaString1 =>
       devuelveListaFuturo()
     }
