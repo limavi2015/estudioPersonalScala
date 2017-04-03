@@ -16,7 +16,8 @@ class FunctorExamples {
   println("map: " + Functor[List].map(List("qwer", "adsfg"))(len))
   println("map: " + Functor[Option].map(Some("adsf"))(_.length))
 
-  //`Lift` parece un 'map`, pero como una función pura. Podemos utilizar Functor para "elevar" una función de A => B a F [A] => F [B]:
+  //`Lift` parece un 'map`, pero como una función pura. Podemos utilizar Functor para "elevar" una
+  // función de A => B a F [A] => F [B], es necesario definir los tipos.
   val lenOption: Option[String] => Option[Int] = Functor[Option].lift(len)
   println("lift: " + lenOption(Some("abcd")))
 
